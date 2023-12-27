@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from '@/components/ui/button';
 import { useForm } from "react-hook-form";
 import { SigninValidation } from "@/lib/validation";
-import Loader from "@/components/ui/shared/Loader";
+import Loader from "@/components/shared/Loader";
 import { Link, useNavigate } from "react-router-dom";
 // import { createUserAccount } from "@/lib/appwrite/api";
 import { toast, useToast } from "@/components/ui/use-toast";
