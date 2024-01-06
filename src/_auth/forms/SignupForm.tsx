@@ -15,7 +15,7 @@ import { SignupValidation } from "@/lib/validation";
 import Loader from "@/components/shared/Loader";
 import { Link, useNavigate } from "react-router-dom";
 import { createUserAccount } from "@/lib/appwrite/api";
-import { toast, useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/components/ui/use-toast";
 import { useCreateUserAccount, useSignInAccount } from "@/lib/react-query/queriesAndMutations";
 import { useUserContext } from "@/context/AuthContext";
  
@@ -82,7 +82,7 @@ const SignupForm = () => {
                     <Input
                     type="text"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="Name" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -98,7 +98,7 @@ const SignupForm = () => {
                     <Input
                     type="text"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="Delta1234" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -114,7 +114,7 @@ const SignupForm = () => {
                     <Input
                     type="email"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="abc@email.com" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -130,7 +130,7 @@ const SignupForm = () => {
                     <Input
                     type="password"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="Password" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

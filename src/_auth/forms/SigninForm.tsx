@@ -68,7 +68,7 @@ const SigninForm = () => {
                     <Input
                     type="email"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="abc@email.com" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -84,7 +84,7 @@ const SigninForm = () => {
                     <Input
                     type="password"
                     className="shad-input"
-                    placeholder="shadcn" {...field} />
+                    placeholder="Password" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
